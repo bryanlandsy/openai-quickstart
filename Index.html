@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Goalie Platform - Home</title>
+  <style>
+    /* Basic reset and styling */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    /* Header styling */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #1dbf73;
+      padding: 20px;
+    }
+    .logo {
+      font-size: 1.8em;
+      font-weight: bold;
+      color: #fff;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 15px;
+      font-size: 1em;
+    }
+    /* Hero section styling */
+    .hero {
+      background: url('https://via.placeholder.com/1500x600') no-repeat center center/cover;
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+      padding: 0 20px;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+      max-width: 600px;
+    }
+    .hero button {
+      padding: 12px 30px;
+      font-size: 1em;
+      border: none;
+      background-color: #fff;
+      color: #1dbf73;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+    .hero button:hover {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header with navigation -->
+  <header>
+    <div class="logo">Goalie Platform</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="marketplace.html">Marketplace</a>
+      <a href="video.html">Video</a>
+      <a href="games.html">Games</a>
+      <a href="profile.html">Profile</a>
+    </nav>
+  </header>
+
+  <!-- Hero section -->
+  <section class="hero">
+    <h1>Welcome to Goalie Platform</h1>
+    <p>
+      Connect with coaches, share your gameplay, and improve your skills.
+    </p>
+    <button onclick="window.location.href='marketplace.html'">Get Started</button>
+  </section>
+</body>
+</html>
